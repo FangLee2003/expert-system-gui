@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "D:\\GithubProjects\\expert-system-gui\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\expert-system-gui\\hcg_n10\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GithubProjects\\expert-system-gui\\expert-system-gui\\Properties\\Resources.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:expert-system-gui\\Properties\\Resources.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\expert-system-gui\\hcg_n10\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\expert-system-gui\\hcg_n10\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\expert-system-gui\\hcg_n10\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\expert-system-gui\\hcg_n10\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\expert-system-gui\\hcg_n10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\expert-system-gui\\hcg_n10\\tuvan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\tuvan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\expert-system-gui\\hcg_n10\\tuvan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\tuvan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\expert-system-gui\\hcg_n10\\tuvan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\tuvan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,38 +51,103 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ketnoi.cs",
-              "DocumentMoniker": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\ketnoi.cs",
-              "RelativeDocumentMoniker": "HCG_N10\\ketnoi.cs",
-              "ToolTip": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\ketnoi.cs",
-              "RelativeToolTip": "HCG_N10\\ketnoi.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAD4vw8AAAA7AAAAAAAAAA==",
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\expert-system-gui\\expert-system-gui\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "expert-system-gui\\Properties\\Resources.Designer.cs",
+              "ToolTip": "D:\\GithubProjects\\expert-system-gui\\expert-system-gui\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "expert-system-gui\\Properties\\Resources.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T18:39:52.119Z",
+              "WhenOpened": "2025-05-01T20:16:54.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form.cs [Design]",
-              "DocumentMoniker": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\Form.cs",
-              "RelativeDocumentMoniker": "HCG_N10\\Form.cs",
-              "ToolTip": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\Form.cs [Design]",
-              "RelativeToolTip": "HCG_N10\\Form.cs [Design]",
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\MainForm.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\MainForm.cs",
+              "ToolTip": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\MainForm.cs [Design]",
+              "RelativeToolTip": "HCG_N10\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T18:21:01.336Z",
+              "WhenOpened": "2025-05-01T20:12:29.758Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\MainForm.Designer.cs",
+              "ToolTip": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\MainForm.Designer.cs",
+              "RelativeToolTip": "HCG_N10\\MainForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T20:12:21.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\MainForm.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\MainForm.cs",
+              "ToolTip": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\MainForm.cs",
+              "RelativeToolTip": "HCG_N10\\MainForm.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T20:12:11.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "tuvan.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\tuvan.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\tuvan.cs",
+              "ToolTip": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\tuvan.cs",
+              "RelativeToolTip": "HCG_N10\\tuvan.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T20:06:19.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\Program.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\Program.cs",
+              "ToolTip": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\Program.cs",
+              "RelativeToolTip": "HCG_N10\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T20:05:04.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tuvan.Designer.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\tuvan.Designer.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\tuvan.Designer.cs",
+              "ToolTip": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\tuvan.Designer.cs",
+              "RelativeToolTip": "HCG_N10\\tuvan.Designer.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T20:04:10.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "tuvan.cs [Design]",
               "DocumentMoniker": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\tuvan.cs",
               "RelativeDocumentMoniker": "HCG_N10\\tuvan.cs",
               "ToolTip": "D:\\GithubProjects\\expert-system-gui\\HCG_N10\\tuvan.cs [Design]",
               "RelativeToolTip": "HCG_N10\\tuvan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T10:11:18.514Z",
+              "WhenOpened": "2025-05-01T20:04:01.583Z",
               "EditorCaption": " [Design]"
             }
           ]
