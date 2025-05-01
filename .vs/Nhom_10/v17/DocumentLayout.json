@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GithubProjects\\He-Chuyen-Gia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\he-chuyen-gia\\hcg_n10\\tuvan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\tuvan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\he-chuyen-gia\\hcg_n10\\quanlysukien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\quanlysukien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\he-chuyen-gia\\hcg_n10\\quanlyluat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\quanlyluat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\he-chuyen-gia\\hcg_n10\\suydienlui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\suydienlui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\he-chuyen-gia\\hcg_n10\\luat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\luat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\he-chuyen-gia\\hcg_n10\\quanlysukien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\quanlysukien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "luat.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\luat.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\luat.cs",
+              "ToolTip": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\luat.cs",
+              "RelativeToolTip": "HCG_N10\\luat.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:29:10.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "suydienlui.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\suydienlui.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\suydienlui.cs",
+              "ToolTip": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\suydienlui.cs",
+              "RelativeToolTip": "HCG_N10\\suydienlui.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAA8wD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:23:35.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tuvan.cs [Design]",
+              "DocumentMoniker": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\tuvan.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\tuvan.cs",
+              "ToolTip": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\tuvan.cs [Design]",
+              "RelativeToolTip": "HCG_N10\\tuvan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:11:18.514Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "quanlysukien.cs [Design]",
+              "DocumentMoniker": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\quanlysukien.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\quanlysukien.cs",
+              "ToolTip": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\quanlysukien.cs [Design]",
+              "RelativeToolTip": "HCG_N10\\quanlysukien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:10:59.848Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "quanlysukien.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\quanlysukien.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\quanlysukien.cs",
+              "ToolTip": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\quanlysukien.cs",
+              "RelativeToolTip": "HCG_N10\\quanlysukien.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:10:15.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "quanlyluat.cs [Design]",
+              "DocumentMoniker": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\quanlyluat.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\quanlyluat.cs",
+              "ToolTip": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\quanlyluat.cs [Design]",
+              "RelativeToolTip": "HCG_N10\\quanlyluat.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:12:52.564Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

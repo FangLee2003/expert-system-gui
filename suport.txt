@@ -1,0 +1,16 @@
+1)Tải VisualStudio ( Không phải VisualStudio Code) 
+2) Click file Nhom_10.sln để mở
+
+Setup database 
+1) Tải SqlServer và tiến hành mở file HCG_N10.sql và chạy( nhấn F5 or nút Execute) file để sinh ra cơ sở dữ liệu trên máy ( nếu không code báo không tìm thấy csdl)
+
+2) Trong VisualStudio mở file ketnoi.cs tiến hành thay tên máy tính vào ...  để kết nối csdl tương ứng trên máy vào dòng 16 file ketnot.cs
+
+ SqlConnection(@"Data Source=..............\SQLEXPRESS;Initial Catalog=HCG_N10;Integrated Security=True;");
+
+VD : SqlConnection(@"Data Source=DESKTOP-O5BHCG7\SQLEXPRESS;Initial Catalog=HCG_N10;Integrated Security=True;");
+tên này là tên máy tính  hiện khi mở sql server ( ở đầu cây thư mục bên trái )
+
+3) Done! Tiến hành chạy code trên VisualStudio (nút F5)
+
+--vy hung--

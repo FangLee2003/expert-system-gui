@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GithubProjects\\He-Chuyen-Gia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\he-chuyen-gia\\hcg_n10\\tuvan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\tuvan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\he-chuyen-gia\\hcg_n10\\tuvan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\tuvan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\he-chuyen-gia\\hcg_n10\\tuvan.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\tuvan.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\he-chuyen-gia\\hcg_n10\\suydientien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\suydientien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|D:\\GithubProjects\\He-Chuyen-Gia\\hcg_n10\\quanlyluat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\quanlyluat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|d:\\githubprojects\\he-chuyen-gia\\hcg_n10\\form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|D:\\GithubProjects\\He-Chuyen-Gia\\hcg_n10\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50040071-27A2-414D-92C1-8AB03C8D8CD9}|HCG_N10\\HCG_N10.csproj|solutionrelative:hcg_n10\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tuvan.resx",
+              "DocumentMoniker": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\tuvan.resx",
+              "RelativeDocumentMoniker": "HCG_N10\\tuvan.resx",
+              "ToolTip": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\tuvan.resx",
+              "RelativeToolTip": "HCG_N10\\tuvan.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-04-30T08:01:43.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "tuvan.Designer.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\tuvan.Designer.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\tuvan.Designer.cs",
+              "ToolTip": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\tuvan.Designer.cs",
+              "RelativeToolTip": "HCG_N10\\tuvan.Designer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T08:01:18.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tuvan.cs [Design]",
+              "DocumentMoniker": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\tuvan.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\tuvan.cs",
+              "ToolTip": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\tuvan.cs [Design]",
+              "RelativeToolTip": "HCG_N10\\tuvan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T08:01:13.719Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form.Designer.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\Form.Designer.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\Form.Designer.cs",
+              "ToolTip": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\Form.Designer.cs",
+              "RelativeToolTip": "HCG_N10\\Form.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:48:43.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "suydientien.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\suydientien.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\suydientien.cs",
+              "ToolTip": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\suydientien.cs",
+              "RelativeToolTip": "HCG_N10\\suydientien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwGIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:32:35.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form.cs [Design]",
+              "DocumentMoniker": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\Form.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\Form.cs",
+              "ToolTip": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\Form.cs [Design]",
+              "RelativeToolTip": "HCG_N10\\Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T17:13:28.832Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "quanlyluat.cs [Design]",
+              "DocumentMoniker": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\quanlyluat.cs",
+              "RelativeDocumentMoniker": "HCG_N10\\quanlyluat.cs",
+              "ToolTip": "D:\\GithubProjects\\He-Chuyen-Gia\\HCG_N10\\quanlyluat.cs [Design]",
+              "RelativeToolTip": "HCG_N10\\quanlyluat.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T16:13:21.29Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
