@@ -37,44 +37,44 @@ namespace HCG_N10
             // 
             // bt_sukien
             // 
-            bt_sukien.BackgroundImage = (System.Drawing.Image)resources.GetObject("bt_sukien.BackgroundImage");
+            bt_sukien.BackColor = System.Drawing.Color.White;
             bt_sukien.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             bt_sukien.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
-            bt_sukien.ForeColor = System.Drawing.SystemColors.ControlText;
-            bt_sukien.Location = new System.Drawing.Point(517, 284);
+            bt_sukien.ForeColor = System.Drawing.Color.Turquoise;
+            bt_sukien.Location = new System.Drawing.Point(447, 329);
             bt_sukien.Name = "bt_sukien";
             bt_sukien.Size = new System.Drawing.Size(163, 80);
             bt_sukien.TabIndex = 0;
             bt_sukien.Text = "Sự kiện";
-            bt_sukien.UseVisualStyleBackColor = true;
+            bt_sukien.UseVisualStyleBackColor = false;
             bt_sukien.Click += bt_sukien_Click;
             // 
             // bt_luat
             // 
-            bt_luat.BackgroundImage = (System.Drawing.Image)resources.GetObject("bt_luat.BackgroundImage");
+            bt_luat.BackColor = System.Drawing.Color.White;
             bt_luat.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             bt_luat.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
-            bt_luat.ForeColor = System.Drawing.SystemColors.ControlText;
-            bt_luat.Location = new System.Drawing.Point(320, 181);
+            bt_luat.ForeColor = System.Drawing.Color.Turquoise;
+            bt_luat.Location = new System.Drawing.Point(116, 329);
             bt_luat.Name = "bt_luat";
-            bt_luat.Size = new System.Drawing.Size(157, 80);
+            bt_luat.Size = new System.Drawing.Size(165, 80);
             bt_luat.TabIndex = 1;
             bt_luat.Text = "Luật";
-            bt_luat.UseVisualStyleBackColor = true;
+            bt_luat.UseVisualStyleBackColor = false;
             bt_luat.Click += bt_luat_Click;
             // 
             // bt_tuvan
             // 
-            bt_tuvan.BackgroundImage = (System.Drawing.Image)resources.GetObject("bt_tuvan.BackgroundImage");
+            bt_tuvan.BackColor = System.Drawing.Color.White;
             bt_tuvan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             bt_tuvan.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
-            bt_tuvan.ForeColor = System.Drawing.SystemColors.ControlText;
-            bt_tuvan.Location = new System.Drawing.Point(97, 93);
+            bt_tuvan.ForeColor = System.Drawing.Color.Turquoise;
+            bt_tuvan.Location = new System.Drawing.Point(280, 60);
             bt_tuvan.Name = "bt_tuvan";
             bt_tuvan.Size = new System.Drawing.Size(167, 85);
             bt_tuvan.TabIndex = 2;
             bt_tuvan.Text = "Tư vấn ";
-            bt_tuvan.UseVisualStyleBackColor = true;
+            bt_tuvan.UseVisualStyleBackColor = false;
             bt_tuvan.Click += bt_tuvan_Click;
             // 
             // Form
@@ -84,7 +84,7 @@ namespace HCG_N10
             BackColor = System.Drawing.Color.FromArgb(255, 255, 192);
             BackgroundImage = (System.Drawing.Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            ClientSize = new System.Drawing.Size(766, 450);
+            ClientSize = new System.Drawing.Size(732, 473);
             Controls.Add(bt_tuvan);
             Controls.Add(bt_luat);
             Controls.Add(bt_sukien);

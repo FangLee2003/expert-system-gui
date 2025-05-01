@@ -23,6 +23,19 @@ namespace HCG_N10
 
         private void tuvan_Load(object sender, EventArgs e)
         {
+            foreach (Control ctrl in this.Controls)
+            {
+                if (ctrl is Button btn &&
+                    btn != bt_tuvan &&
+                    btn != bt_chonlai &&
+                    btn.Name != "bt_tuvan" &&
+                    btn.Name != "bt_chonlai")
+                {
+                    this.Controls.Remove(btn); // Xoá khỏi giao diện
+                    btn.Dispose();             // Giải phóng bộ nhớ
+                }
+            }
+
             // Load danh sách sách (loại = 'Sach') từ CSDL
             string cau_lenh = "select MaSuKien, MoTa from SuKien where LoaiSuKien='Sach'";
             DataTable bang_sach = csdl.getTable(cau_lenh);
@@ -145,5 +158,10 @@ namespace HCG_N10
         private void label5_Click(object sender, EventArgs e) { }
         private void label6_Click(object sender, EventArgs e) { }
         private void richKQ_TextChanged(object sender, EventArgs e) { }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

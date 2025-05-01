@@ -13,7 +13,7 @@ namespace HCG_N10
 
         public ketnoi()
         {
-            con = new SqlConnection(@"Data Source=FANGLEELAPTOP;Initial Catalog=HCG_N10;Integrated Security=True;");
+            con = new SqlConnection(@"Data Source=FANGLEEPC;Initial Catalog=expert_system_gui;Integrated Security=True;");
             con.Open();
 
         }

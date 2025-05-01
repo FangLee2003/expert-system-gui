@@ -51,110 +51,115 @@ namespace HCG_N10
             // 
             // txt_timkiem
             // 
-            txt_timkiem.BackColor = System.Drawing.Color.FromArgb(255, 255, 192);
-            txt_timkiem.Location = new System.Drawing.Point(140, 48);
+            txt_timkiem.BackColor = System.Drawing.Color.White;
+            txt_timkiem.Location = new System.Drawing.Point(186, 33);
             txt_timkiem.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             txt_timkiem.Name = "txt_timkiem";
-            txt_timkiem.Size = new System.Drawing.Size(419, 30);
+            txt_timkiem.Size = new System.Drawing.Size(354, 30);
             txt_timkiem.TabIndex = 3;
+            txt_timkiem.TextChanged += txt_timkiem_TextChanged;
             // 
             // txt_maluat
             // 
-            txt_maluat.BackColor = System.Drawing.Color.FromArgb(255, 255, 192);
-            txt_maluat.Location = new System.Drawing.Point(140, 102);
+            txt_maluat.BackColor = System.Drawing.Color.White;
+            txt_maluat.Location = new System.Drawing.Point(186, 89);
             txt_maluat.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             txt_maluat.Name = "txt_maluat";
-            txt_maluat.Size = new System.Drawing.Size(204, 30);
+            txt_maluat.Size = new System.Drawing.Size(156, 30);
             txt_maluat.TabIndex = 4;
             // 
             // txt_noidung
             // 
-            txt_noidung.BackColor = System.Drawing.Color.FromArgb(255, 255, 192);
-            txt_noidung.Location = new System.Drawing.Point(140, 151);
+            txt_noidung.BackColor = System.Drawing.Color.White;
+            txt_noidung.Location = new System.Drawing.Point(186, 142);
             txt_noidung.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             txt_noidung.Multiline = true;
             txt_noidung.Name = "txt_noidung";
             txt_noidung.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            txt_noidung.Size = new System.Drawing.Size(500, 65);
+            txt_noidung.Size = new System.Drawing.Size(354, 89);
             txt_noidung.TabIndex = 5;
             // 
             // txt_douutien
             // 
-            txt_douutien.BackColor = System.Drawing.Color.FromArgb(255, 255, 192);
-            txt_douutien.Location = new System.Drawing.Point(488, 100);
+            txt_douutien.BackColor = System.Drawing.Color.White;
+            txt_douutien.Location = new System.Drawing.Point(464, 89);
             txt_douutien.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             txt_douutien.Name = "txt_douutien";
-            txt_douutien.Size = new System.Drawing.Size(152, 30);
+            txt_douutien.Size = new System.Drawing.Size(76, 30);
             txt_douutien.TabIndex = 6;
             // 
             // bt_tim
             // 
-            bt_tim.BackgroundImage = (System.Drawing.Image)resources.GetObject("bt_tim.BackgroundImage");
+            bt_tim.BackColor = System.Drawing.Color.White;
             bt_tim.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             bt_tim.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            bt_tim.Location = new System.Drawing.Point(658, 40);
+            bt_tim.ForeColor = System.Drawing.Color.Turquoise;
+            bt_tim.Location = new System.Drawing.Point(561, 31);
             bt_tim.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             bt_tim.Name = "bt_tim";
             bt_tim.Size = new System.Drawing.Size(96, 36);
             bt_tim.TabIndex = 6;
             bt_tim.Text = "Tìm kiếm";
-            bt_tim.UseVisualStyleBackColor = true;
+            bt_tim.UseVisualStyleBackColor = false;
             bt_tim.Click += bt_tim_Click;
             // 
             // bt_them
             // 
-            bt_them.BackgroundImage = (System.Drawing.Image)resources.GetObject("bt_them.BackgroundImage");
+            bt_them.BackColor = System.Drawing.Color.White;
             bt_them.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             bt_them.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            bt_them.Location = new System.Drawing.Point(658, 94);
+            bt_them.ForeColor = System.Drawing.Color.Turquoise;
+            bt_them.Location = new System.Drawing.Point(561, 85);
             bt_them.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             bt_them.Name = "bt_them";
             bt_them.Size = new System.Drawing.Size(94, 36);
             bt_them.TabIndex = 7;
             bt_them.Text = "Thêm";
-            bt_them.UseVisualStyleBackColor = true;
+            bt_them.UseVisualStyleBackColor = false;
             bt_them.Click += bt_them_Click;
             // 
             // bt_sua
             // 
-            bt_sua.BackgroundImage = (System.Drawing.Image)resources.GetObject("bt_sua.BackgroundImage");
+            bt_sua.BackColor = System.Drawing.Color.White;
             bt_sua.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             bt_sua.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            bt_sua.Location = new System.Drawing.Point(658, 151);
+            bt_sua.ForeColor = System.Drawing.Color.Turquoise;
+            bt_sua.Location = new System.Drawing.Point(561, 142);
             bt_sua.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             bt_sua.Name = "bt_sua";
             bt_sua.Size = new System.Drawing.Size(94, 36);
             bt_sua.TabIndex = 8;
-            bt_sua.Text = "Sửa ";
-            bt_sua.UseVisualStyleBackColor = true;
+            bt_sua.Text = "Sửa";
+            bt_sua.UseVisualStyleBackColor = false;
             bt_sua.Click += bt_sua_Click;
             // 
             // bt_xoa
             // 
-            bt_xoa.BackgroundImage = (System.Drawing.Image)resources.GetObject("bt_xoa.BackgroundImage");
+            bt_xoa.BackColor = System.Drawing.Color.White;
             bt_xoa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             bt_xoa.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            bt_xoa.Location = new System.Drawing.Point(658, 204);
+            bt_xoa.ForeColor = System.Drawing.Color.Turquoise;
+            bt_xoa.Location = new System.Drawing.Point(561, 195);
             bt_xoa.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             bt_xoa.Name = "bt_xoa";
             bt_xoa.Size = new System.Drawing.Size(94, 36);
             bt_xoa.TabIndex = 9;
             bt_xoa.Text = "Xóa";
-            bt_xoa.UseVisualStyleBackColor = true;
+            bt_xoa.UseVisualStyleBackColor = false;
             bt_xoa.Click += bt_xoa_Click;
             // 
             // dataLuat
             // 
-            dataLuat.BackgroundColor = System.Drawing.Color.FromArgb(255, 255, 192);
+            dataLuat.BackgroundColor = System.Drawing.Color.White;
             dataLuat.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataLuat.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { maluat, noidung, douutien });
-            dataLuat.Location = new System.Drawing.Point(140, 245);
+            dataLuat.Location = new System.Drawing.Point(82, 260);
             dataLuat.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             dataLuat.Name = "dataLuat";
             dataLuat.RowHeadersWidth = 51;
             dataLuat.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             dataLuat.ShowRowErrors = false;
-            dataLuat.Size = new System.Drawing.Size(573, 230);
+            dataLuat.Size = new System.Drawing.Size(573, 187);
             dataLuat.TabIndex = 0;
             dataLuat.CellClick += dataCellclick;
             dataLuat.CellContentClick += dataLuat_CellContentClick;
@@ -186,9 +191,10 @@ namespace HCG_N10
             // label4
             // 
             label4.AutoSize = true;
-            label4.BackColor = System.Drawing.Color.FromArgb(255, 255, 192);
+            label4.BackColor = System.Drawing.Color.Transparent;
             label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            label4.Location = new System.Drawing.Point(30, 153);
+            label4.ForeColor = System.Drawing.Color.Turquoise;
+            label4.Location = new System.Drawing.Point(79, 144);
             label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label4.Name = "label4";
             label4.Size = new System.Drawing.Size(100, 28);
@@ -199,9 +205,10 @@ namespace HCG_N10
             // label5
             // 
             label5.AutoSize = true;
-            label5.BackColor = System.Drawing.Color.FromArgb(255, 255, 192);
+            label5.BackColor = System.Drawing.Color.Transparent;
             label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            label5.Location = new System.Drawing.Point(45, 102);
+            label5.ForeColor = System.Drawing.Color.Turquoise;
+            label5.Location = new System.Drawing.Point(93, 86);
             label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label5.Name = "label5";
             label5.Size = new System.Drawing.Size(85, 28);
@@ -212,9 +219,10 @@ namespace HCG_N10
             // label6
             // 
             label6.AutoSize = true;
-            label6.BackColor = System.Drawing.Color.FromArgb(255, 255, 192);
+            label6.BackColor = System.Drawing.Color.Transparent;
             label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            label6.Location = new System.Drawing.Point(30, 48);
+            label6.ForeColor = System.Drawing.Color.Turquoise;
+            label6.Location = new System.Drawing.Point(82, 32);
             label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label6.Name = "label6";
             label6.Size = new System.Drawing.Size(100, 28);
@@ -225,9 +233,10 @@ namespace HCG_N10
             // label7
             // 
             label7.AutoSize = true;
-            label7.BackColor = System.Drawing.Color.FromArgb(255, 255, 192);
+            label7.BackColor = System.Drawing.Color.Transparent;
             label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            label7.Location = new System.Drawing.Point(368, 102);
+            label7.ForeColor = System.Drawing.Color.Turquoise;
+            label7.Location = new System.Drawing.Point(349, 87);
             label7.Name = "label7";
             label7.Size = new System.Drawing.Size(113, 28);
             label7.TabIndex = 13;
@@ -239,7 +248,7 @@ namespace HCG_N10
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackgroundImage = (System.Drawing.Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            ClientSize = new System.Drawing.Size(828, 446);
+            ClientSize = new System.Drawing.Size(741, 446);
             Controls.Add(label4);
             Controls.Add(label5);
             Controls.Add(label6);

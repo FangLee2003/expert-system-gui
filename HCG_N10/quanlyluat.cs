@@ -11,7 +11,7 @@ namespace HCG_N10
     public partial class quanlyluat : System.Windows.Forms.Form
     {
         luatxl xl = new luatxl();
-       
+
         public quanlyluat()
         {
             InitializeComponent();
@@ -35,7 +35,7 @@ namespace HCG_N10
             {
                 MessageBox.Show("Mã luật này đã tồn tại !");
             }
-           
+
             dataLuat.DataSource = xl.loadluat();
         }
 
@@ -105,6 +105,11 @@ namespace HCG_N10
         }
 
         private void dataLuat_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void txt_timkiem_TextChanged(object sender, EventArgs e)
         {
 
         }

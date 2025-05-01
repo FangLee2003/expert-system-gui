@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HCG_N10")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87a1b1d51c01ed1ed2e6ded1d8bec316736a71b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea6ffcd56d258f85aa279a4f23b051bff5f80e08")]
 [assembly: System.Reflection.AssemblyProductAttribute("HCG_N10")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HCG_N10")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
