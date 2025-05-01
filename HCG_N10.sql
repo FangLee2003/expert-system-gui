@@ -17,7 +17,8 @@ GO
 
 CREATE TABLE TapLuat(
 	MaLuat varchar(10) not null PRIMARY KEY,
-	NoiDung nvarchar(100) not null
+	NoiDung nvarchar(100) not null,
+	DoUuTien int DEFAULT 0
 )
 GO
 
@@ -144,96 +145,96 @@ INSERT INTO SuKien(MaSuKien, MoTa, LoaiSuKien) VALUES ('S41', N'Ngày hôm qua',
 INSERT INTO SuKien(MaSuKien, MoTa, LoaiSuKien) VALUES ('S42', N'Khi người lớn cô đơn','Sach')
 GO
 --Bang TapLuat
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R1',N'NN1>TL3')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R2',N'NN3^DT1>TL7')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R3',N'NN4>TL9')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R4',N'NN2>TL2')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R5',N'DT1>TL7')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R6',N'DT2>TL6')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R7',N'DT3>TL2')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R8',N'DT4^NN4>TL1')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R9',N'DT3>NN3')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R10',N'TL8^NXB2>TG4')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R11',N'TG5^GT2^NXB6>TL8')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R12',N'TL6^NXB6>GT2')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R13',N'GT2^TL5>NXB6')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R14',N'TL5^NXB8>DT4')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R15',N'TG4^NXB9>GT2')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R16',N'TG8>GT1')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R17',N'TL10^GT1>TG8')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R18',N'TG8^NXB12>TL10')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R19',N'NXB10^DT3>TL8')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R20',N'DT2^NXB1>TL7')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R21',N'NXB6^DT3>TL6')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R22',N'DT3^NXB1>TL5')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R23',N'TG13>NXB1')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R24',N'TL6^DT4>GT2')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R25',N'TL6>DT3')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R26',N'GT2^TG10>NXB10')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R27',N'DT4>NXB11')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R28',N'TG1>NXB6')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R29',N'TG18^NXB13>GT2')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R30',N'TL6^DT1>TG18')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R31',N'NXB14^GT3>DT4')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R32',N'GT1^TL11^DT2>NXB13')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R33',N'TG18^GT2>DT3')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R34',N'TG18^TL6^DT1>GT1')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R35',N'NXB1^DT1>S1')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R36',N'NXB3^GT4>S11')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R37',N'TG1^GT5>S14')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R38',N'TG11^NXB7>S8')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R39',N'TG3^TL9^NXB1>S10')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R40',N'DT2^NN3>S1')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R41',N'TG2^GT1^TL7>S1')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R42',N'TL5^DT3>S7')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R43',N'GT3^TL4>S9')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R44',N'NXB5^GT3>S6')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R45',N'TL8^TG10^DT3>S3')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R46',N'NXB2^DT3>S12')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R47',N'NXB1^DT1>S1')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R48',N'NXB6^TG1^NN3>S14')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R49',N'NXB4^NN4^TL3>S11')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R50',N'TG2^TL6>S6')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R51',N'GT1^TG2>S3')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R52',N'GT2^TG3>S4')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R53',N'TG1^TL6>S14')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R54',N'GT4^NN1>S10')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R55',N'GT5^NN3>S15')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R56',N'DT4^TG10>S3')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R57',N'DT1^TG3>S15')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R58',N'DT4^TL1>NN4')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R59',N'GT4^NN1>S13')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R60',N'GT2^DT4>S5')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R61',N'TG4^GT1>S16')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R62',N'TL8^DT3>S17')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R63',N'TG6^NXB6>S18')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R64',N'GT2^TG7>S19')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R65',N'TL3^TG5>S20')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R66',N'TL5^TG7>S21')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R67',N'DT4^TL9>S22')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R68',N'TG4^TL8^GT2>S23')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R69',N'TG8^NXB7>S24')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R70',N'TL10^TG8>S25')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R71',N'NXB10^TG10^TL8>S27')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R72',N'TG11^GT1^TL8>S28')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R73',N'TG3^GT2^TL8>S29')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R74',N'NXB1^TL5^TG9>S30')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R75',N'TG1^GT2^TL6>S31')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R76',N'NXB1^GT1^TG13>S33')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R77',N'TL7^GT2^NXB1>S32')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R78',N'TG14^TL6>S34')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R79',N'TG1^TL6^GT1>S26')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R80',N'TG15^NXB13^GT1>S35')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R81',N'TG15^TL11^DT1>S36')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R82',N'GT2^TL11^DT3>S37')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R83',N'TG18^NXB14^GT1>S38')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R84',N'DT4^TG18>S39')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R85',N'NXB13^TG18>S40')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R86',N'DT3^TG17^NSX16^TL11>S41')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R87',N'GT1^NXB13>S42')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R88',N'GT1^NXB14>S42')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R89',N'TG18^NXB14>S37')
-INSERT INTO TapLuat(MaLuat, NoiDung) VALUES ('R90',N'DT3^TG15>S42')
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R1', N'', 7);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R2', N'', 6);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R3', N'', 4);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R4', N'', 10);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R5', N'', 9);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R6', N'', 5);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R7', N'', 7);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R8', N'', 7);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R9', N'', 5);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R10', N'', 7);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R11', N'', 6);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R12', N'', 8);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R13', N'', 4);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R14', N'', 7);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R15', N'', 3);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R16', N'', 2);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R17', N'', 6);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R18', N'', 3);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R19', N'', 6);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R20', N'', 8);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R21', N'', 8);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R22', N'', 7);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R23', N'', 4);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R24', N'', 1);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R25', N'', 9);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R26', N'', 6);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R27', N'', 4);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R28', N'', 5);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R29', N'', 8);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R30', N'', 4);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R31', N'', 10);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R32', N'', 6);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R33', N'', 2);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R34', N'', 6);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R35', N'', 10);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R36', N'', 3);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R37', N'', 1);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R38', N'', 10);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R39', N'', 10);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R40', N'', 2);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R41', N'', 7);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R42', N'', 5);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R43', N'', 4);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R44', N'', 1);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R45', N'', 9);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R46', N'', 8);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R47', N'', 7);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R48', N'', 6);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R49', N'', 4);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R50', N'', 2);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R51', N'', 3);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R52', N'', 3);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R53', N'', 5);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R54', N'', 1);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R55', N'', 8);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R56', N'', 9);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R57', N'', 7);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R58', N'', 9);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R59', N'', 6);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R60', N'', 10);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R61', N'', 8);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R62', N'', 10);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R63', N'', 8);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R64', N'', 4);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R65', N'', 1);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R66', N'', 10);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R67', N'', 7);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R68', N'', 9);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R69', N'', 4);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R70', N'', 2);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R71', N'', 4);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R72', N'', 4);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R73', N'', 10);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R74', N'', 7);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R75', N'', 2);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R76', N'', 5);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R77', N'', 2);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R78', N'', 9);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R79', N'', 5);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R80', N'', 7);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R81', N'', 9);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R82', N'', 7);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R83', N'', 4);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R84', N'', 3);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R85', N'', 2);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R86', N'', 1);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R87', N'', 8);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R88', N'', 1);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R89', N'', 8);
+INSERT INTO TapLuat (MaLuat, NoiDung, DoUuTien) VALUES ('R90', N'', 7);
 GO
 
 select * from SuKien

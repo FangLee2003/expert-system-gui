@@ -19,6 +19,13 @@ Hệ thống sử dụng 2 cơ chế suy luận:
 - Hiển thị kết quả bằng `RichTextBox` và `TreeView`
 - Xử lý xung đột luật bằng độ ưu tiên (`DoUuTien`)
 
+## 🚀 Hướng dẫn sử dụng
+1. Mở project trong Visual Studio
+2. Đảm bảo cấu hình chuỗi kết nối SQL Server (`ketnoi.cs`)
+3. Chạy script `HCG_N10_updated.sql` để khởi tạo và thêm dữ liệu mẫu
+4. Build và chạy ứng dụng
+5. Chọn các tiêu chí đầu vào và nhấn `Tư vấn`
+
 ## 📦 Dữ liệu và cấu trúc bảng
 
 ### 🔹 Bảng `SuKien`
@@ -53,13 +60,6 @@ Người dùng lựa chọn các đặc điểm như:
 ### ➤ Bước 4: Hiển thị kết quả
 - Kết quả được in ra `RichTextBox`
 - Toàn bộ quá trình suy luận được minh họa bằng `TreeView` dạng cây.
-
-## 🚀 Hướng dẫn sử dụng
-1. Mở project trong Visual Studio
-2. Đảm bảo cấu hình chuỗi kết nối SQL Server (`ketnoi.cs`)
-3. Chạy script `HCG_N10_updated.sql` để khởi tạo và thêm dữ liệu mẫu
-4. Build và chạy ứng dụng
-5. Chọn các tiêu chí đầu vào và nhấn `Tư vấn`
 
 ## 📁 File quan trọng
 
