@@ -22,7 +22,7 @@ Hệ thống sử dụng 2 cơ chế suy luận:
 ## 🚀 Hướng dẫn sử dụng
 1. Mở project trong Visual Studio
 2. Đảm bảo cấu hình chuỗi kết nối SQL Server (`ketnoi.cs`)
-3. Chạy script `HCG_N10_updated.sql` để khởi tạo và thêm dữ liệu mẫu
+3. Chạy script `expert_system_gui.sql` để khởi tạo và thêm dữ liệu mẫu
 4. Build và chạy ứng dụng
 5. Chọn các tiêu chí đầu vào và nhấn `Tư vấn`
 
