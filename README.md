@@ -1,6 +1,6 @@
 # TreeThinker - Multidimensional Expert System with Tree Graphical Interface
 
-![Preview](https://github.com/user-attachments/assets/8f0cf63c-0458-4901-84fb-924d6962890a)
+![image](https://github.com/user-attachments/assets/66535697-f0f8-405a-aced-9fd1dd3f6e4d)
 
 ## 🧠 Mô tả
 Đây là một hệ chuyên gia được xây dựng bằng WinForms (C#) và SQL Server để tư vấn chọn sách phù hợp dựa trên thông tin người dùng cung cấp như:
